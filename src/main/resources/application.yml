@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+    name: root
+    data-password: root
+
+
